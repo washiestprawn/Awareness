@@ -39,7 +39,7 @@ public class AwareGame extends GameComponent {
 	float degree = 0.0f;
 	Vec3 rot = new Vec3(1.0f, 1.0f, 0.0f);
 	@Override
-	protected void tick() {
+	protected void render() {
 		for (int i=0; i<rgb.length; i++) {
 			if (Math.random() >= 0.5d) rgb[i] -= .1;
 			else rgb[i] += .1;
