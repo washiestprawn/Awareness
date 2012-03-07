@@ -1,7 +1,4 @@
 bin
 jar
-bin/com/flipflop/game/aware/AwareGame.class
-
-jar/.DS_Store
 
 .gitignore
