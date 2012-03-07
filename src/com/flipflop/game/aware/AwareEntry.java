@@ -14,7 +14,7 @@ public class AwareEntry {
 	public static void main(String[] args) {
 		LogUtil.initRootLogger(logger);
 		try {
-			AwareGame game = new AwareGame();
+			AwareGame game = new AwareGame(1024, 800);
 			game.start();
 		} catch (LWJGLException e) {
 			e.printStackTrace();
